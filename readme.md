@@ -1,5 +1,9 @@
 Objective=The objective of this service is to search for flights.The project is micro-service based architecture and this is search service.
 
+## Techstack-
+
+Nodejs,Express,MYSQL,Sequelize ORM,Sequelize-cli,Micro-service
+
 ## Folder
 
 src-
@@ -36,6 +40,12 @@ it will create database for you
 
 ## To create model
 
-npx sequelize model:generate -- name <model name> --attributes <fields you want in your model>
+npx sequelize model:generate -- name (model name) --attributes (fields you want in your model)
 
 npx sequelize db:migrate <creates table/model inside database> run inside src
+
+## Tables
+
+- City-id,name,updatedAt,createdAt.
+  -Airport- id,city_id,name,address,updatedAt,createdAt.
+  Realtionship--> One city can have many airports(one-to-many relation)
