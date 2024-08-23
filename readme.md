@@ -14,10 +14,10 @@ migrations.
 
 ## Folder use case
 
-Controller-For http request and send request to service layer
-service-it hold the business logic and connects to repository layer
-repository-it connects with the databse
-models-database blueprint
+- Controller-For http request and send request to service layer
+- service-it hold the business logic and connects to repository layer
+- repository-it connects with the databse
+- models-database blueprint
 
 ## Project setup
 
